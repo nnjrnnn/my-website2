@@ -18,20 +18,18 @@ td, tr {background-color: #FFF2F9;}
 input[type="radio"] {
     display: none;
 }
+
 label {
   padding: 5px 15px;
   background-color: 86C6F4;
   border: thin solid 084594;
   border-radius: 10px;
   margin:5px;
-  display: inline-block;
-}
-
+  display: inline-block;}
 input[type="radio"]:checked + label {
     background-color: darkblue;
     cursor: default;
-    color: #E6E6E6;
-}
+    color: #86C6F4;}
 
 #example1 {
   border: 5px solid;
